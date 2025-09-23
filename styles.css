@@ -27,7 +27,7 @@ body {
 .img {
 	text-align: center;
 
-	margin: 2rem 0;
+	margin: 2.8rem 0;
 }
 
 img {
@@ -39,9 +39,13 @@ img {
 }
 
 section {
-	margin: 2rem 0;
+	margin: 2.8rem 0;
 }
 
 p {
 	text-align: justify;
+}
+
+div {
+	margin: 2rem 0;
 }
