@@ -26,10 +26,20 @@ body {
 
 .img {
 	text-align: center;
+
+	margin: 2rem 0;
 }
 
 img {
 	border-radius: 50%;
+}
+
+.developer {
+	text-align: center;
+}
+
+section {
+	margin: 2rem 0;
 }
 
 p {
