@@ -25,16 +25,10 @@ body {
 }
 
 .img {
-	/* width: 50%; */
-
-	/* margin: 0 auto; */
-
 	text-align: center;
 }
 
 img {
-	/* height: 50%; */
-
 	border-radius: 50%;
 }
 
