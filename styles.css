@@ -42,6 +42,36 @@ section {
 	margin: 2.8rem 0;
 }
 
+.sub-heading {
+	max-width: 100%;
+
+	display: flex;
+
+	/* text-align: end; */
+
+	/* flex-direction: column; */
+
+	justify-content: space-between;
+}
+
+.sub-heading h2 {
+	margin-right: 0.4rem;
+
+	max-width: 30%;
+}
+
+hr {
+	width: 65%;
+
+	height: 3px;
+
+	align-self: center;
+	border: 2px solid #b8b8b8;
+
+	/* border: none; */
+	/* color: #222; */
+}
+
 div {
 	margin: 2rem 0;
 }
