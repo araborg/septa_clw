@@ -57,11 +57,11 @@ section {
 .sub-heading h2 {
 	margin-right: 0.4rem;
 
-	max-width: 40%;
+	max-width: 55%;
 }
 
 hr {
-	width: 50%;
+	width: 40%;
 
 	height: 3px;
 
@@ -103,7 +103,7 @@ h3 ~ p:nth-child(2) {
 .instagram > h3 {
 	margin: 0.04rem 0;
 
-	/* border: 2px solid red; */
+	border: 2px solid red;
 }
 
 footer {
@@ -115,7 +115,11 @@ footer {
 
 @media (min-width: 850px) {
 	body {
-		margin-top: 5rem;
+		margin: 5rem 0;
+
+		height: 100vh;
+
+		border: 2px solid green;
 	}
 
 	.container {
