@@ -80,6 +80,12 @@ h3 ~ p:nth-child(2) {
 	margin: 0.4rem 0;
 }
 
+.course div {
+	margin: 2rem 0;
+
+	/* border: 2px solid green; */
+}
+
 .phone > h3,
 .email > h3,
 .home > h3,
