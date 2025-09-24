@@ -1,8 +1,6 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
-
 	margin: 0;
 	padding: 0;
 }
@@ -15,8 +13,6 @@ body {
 	font-size: 1.2rem;
 
 	height: 100%;
-
-	border: 3px solid blue;
 }
 
 .container {
@@ -35,7 +31,6 @@ body {
 }
 
 img {
-	border-radius: 50%;
 }
 
 /* .developer {
@@ -70,9 +65,7 @@ hr {
 	height: 3px;
 
 	align-self: center;
-	border: 2px solid #b8b8b8;
 
-	/* border: none; */
 	/* color: #222; */
 }
 
@@ -90,8 +83,6 @@ h3 {
 
 h3 ~ p:nth-child(2) {
 	margin: 0.4rem 0;
-
-	/* border: 2px solid green; */
 }
 
 .phone > h3,
@@ -106,8 +97,6 @@ h3 ~ p:nth-child(2) {
 .linkedin > h3,
 .instagram > h3 {
 	margin: 0.04rem 0;
-
-	border: 2px solid red;
 }
 
 footer {
@@ -122,8 +111,6 @@ footer {
 		/* margin: 5rem 0; */
 
 		height: 100%;
-
-		border: 2px solid green;
 	}
 
 	.container {
@@ -163,7 +150,6 @@ footer {
 		align-self: start;
 
 		margin: 0;
-		border: 2px solid green;
 	}
 	section {
 		margin: 0;
