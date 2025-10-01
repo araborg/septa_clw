@@ -33,7 +33,6 @@ body {
 }
 
 .container {
-	/* border: 2px solid green; */
 	height: 100vh;
 
 	display: flex;
@@ -42,19 +41,12 @@ body {
 }
 
 main {
-	/* border: 2px solid red; */
-
-	/* width: 70%; */
 	max-width: 375px;
-	height: 90%;
-
-	/* margin: 0 auto; */
 
 	background-color: var(--grey-800);
 
 	display: flex;
 	align-items: center;
-	/* justify-content: center; */
 	flex-direction: column;
 
 	padding: 4rem;
@@ -89,8 +81,6 @@ img {
 
 .description {
 	margin-bottom: 1.2rem;
-
-	/* font-size: 1.2rem; */
 }
 
 .links {
@@ -107,7 +97,6 @@ img {
 a {
 	border-radius: 0.4rem;
 	padding: 0.8rem;
-	/* border: 2px solid blue; */
 
 	color: var(--white);
 	display: block;
@@ -117,9 +106,6 @@ a {
 
 @media (max-width: 1600px) {
 	main {
-		/* border: 2px solid red; */
-
-		/* width: 70%; */
 		max-width: 1440px;
 	}
 
