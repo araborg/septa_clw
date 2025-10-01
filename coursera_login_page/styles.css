@@ -118,6 +118,6 @@ img {
 
 @media (min-width: 1200px) {
 	.main {
-		max-width: 100px;
+		/* max-width: 100px; */
 	}
 }
