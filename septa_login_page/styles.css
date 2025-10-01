@@ -51,6 +51,8 @@ main {
 
 	border: 1px solid var(--border);
 	background-color: var(--white);
+
+	margin: 4rem 0;
 }
 
 h2 {
@@ -67,22 +69,41 @@ form {
 	margin: 2rem 0;
 }
 
+form div {
+	margin: 2rem 0;
+}
+
 label {
 	display: block;
 	margin: 0.8rem 0;
 }
 
-form div {
-	margin: 2rem 0;
+input {
+	padding: 1.2rem;
+	width: 100%;
+	border-radius: 0.4rem;
+	outline: none;
+
+	border: 1px solid var(--text-color);
 }
 
 form p {
 	margin: 2rem 0;
+	text-align: right;
 }
 
 button {
 	/* display: inline-block; */
-	padding: 2rem 2rem;
+	padding: 1.2rem 2rem;
+	width: 100%;
+}
 
-	width: 100px;
+form + p {
+	text-align: center;
+}
+
+main + p {
+	align-self: start;
+
+	border: 2px solid orange;
 }
