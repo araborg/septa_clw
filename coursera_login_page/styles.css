@@ -84,6 +84,11 @@ input[type="submit"] {
 	border: 1px solid var(--primary-color);
 } */
 
+input[type="text"],
+input[type="password"] {
+	border: 1px solid var(--grey-700);
+}
+
 label {
 	display: block;
 	margin: 0.4rem 0;
@@ -96,7 +101,6 @@ input {
 	border-radius: 0.4rem;
 
 	padding: 0.4rem;
-	border: 1px solid var(--grey-700);
 }
 
 input:active {
