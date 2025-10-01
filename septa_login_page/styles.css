@@ -85,18 +85,29 @@ input {
 	border-radius: 0.4rem;
 	outline: none;
 
+	background-color: var(--white);
+	font-weight: 500;
+
 	border: 1px solid var(--text-color);
+	font-size: 1.4rem;
 }
 
 form p {
-	margin: 2rem 0;
+	margin: 4rem 0;
 	text-align: right;
+}
+
+p a {
+	color: var(--btn);
+	font-weight: 700;
 }
 
 button {
 	/* display: inline-block; */
-	padding: 2rem;
+	padding: 1.6rem 2rem;
 	width: 100%;
+
+	margin: 4rem 0;
 
 	border-radius: 3.2rem;
 	background-color: var(--btn);
