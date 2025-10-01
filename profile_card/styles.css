@@ -25,20 +25,23 @@ html {
 }
 
 body {
+	background-color: var(--grey-900);
 }
 
 .container {
-	width: 80%;
-	max-width: 70rem;
+	border: 2px solid green;
 	height: 100vh;
 
-	margin: 0rem auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 main {
-	border: 2px solid green;
+	border: 2px solid red;
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	width: 70%;
+	max-width: 60rem;
+
+	background-color: var(--grey-800);
 }
