@@ -17,13 +17,28 @@ body {
 }
 
 .container {
-	max-width: 375px;
-
 	border: 2px solid black;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/* margin: 4rem 0; */
 }
 
-@media (min-width: 1000px) {
-	.container {
-		max-width: 1200px;
+main {
+	max-width: 375px;
+
+	border: 2px solid red;
+}
+
+img {
+	width: 20px;
+	height: 20px;
+}
+
+@media (min-width: 1200px) {
+	.main {
+		max-width: 100px;
 	}
 }
