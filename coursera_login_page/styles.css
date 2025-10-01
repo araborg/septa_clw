@@ -33,7 +33,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-
 	margin: auto 0;
 }
 
@@ -74,7 +73,6 @@ input[type="password"] {
 	border-radius: 0.4rem;
 	padding: 0.2rem 0.8rem;
 	color: var(--grey-800);
-
 	outline: none;
 }
 
@@ -94,10 +92,6 @@ input {
 	border-radius: 0.4rem;
 	padding: 0.4rem;
 }
-
-/* input:active {
-	border: 1px solid var(--primary-color);
-} */
 
 img {
 	width: 20px;
@@ -120,9 +114,3 @@ img {
 	background-color: var(--white);
 	border: 1px solid var(--grey-800);
 }
-
-/* @media (min-width: 1200px) {
-	.main {
-		max-width: 100px;
-	}
-} */
