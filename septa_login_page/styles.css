@@ -95,7 +95,7 @@ form p {
 
 button {
 	/* display: inline-block; */
-	padding: 1.6rem 2rem;
+	padding: 2rem;
 	width: 100%;
 
 	border-radius: 3.2rem;
@@ -103,6 +103,18 @@ button {
 
 	border: none;
 	outline: none;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--white);
+
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+
+svg {
+	margin-left: 1.2rem;
 }
 
 form + p {
@@ -111,4 +123,6 @@ form + p {
 
 main + p {
 	align-self: start;
+
+	font-size: 1.2rem;
 }
