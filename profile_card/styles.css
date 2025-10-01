@@ -26,6 +26,10 @@ html {
 
 body {
 	background-color: var(--grey-900);
+
+	color: var(--white);
+
+	font-size: 1.4rem;
 }
 
 .container {
@@ -40,8 +44,54 @@ body {
 main {
 	border: 2px solid red;
 
-	width: 70%;
-	max-width: 60rem;
+	/* width: 70%; */
+	max-width: 375px;
+	height: 90%;
+
+	/* margin: 0 auto; */
 
 	background-color: var(--grey-800);
+
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	flex-direction: column;
+
+	padding: 4rem;
+}
+
+img {
+	width: 10rem;
+	height: 10rem;
+
+	border-radius: 50%;
+
+	object-fit: cover;
+
+	margin-bottom: 1.6rem;
+}
+
+.details {
+	text-align: center;
+
+	margin-bottom: 1.6rem;
+}
+
+.details h2 {
+	margin-bottom: 0.8rem;
+}
+
+.description {
+	margin-bottom: 1.2rem;
+
+	font-size: 1.2rem;
+}
+
+@media (max-width: 1600px) {
+	main {
+		border: 2px solid red;
+
+		width: 70%;
+		max-width: 1440px;
+	}
 }
