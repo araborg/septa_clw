@@ -55,6 +55,11 @@ img {
 	height: 20px;
 }
 
+.login-options {
+	display: flex;
+	justify-content: space-between;
+}
+
 @media (min-width: 1200px) {
 	.main {
 		max-width: 100px;
