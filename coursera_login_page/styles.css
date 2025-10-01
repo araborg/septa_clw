@@ -33,7 +33,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	margin: 2rem 0;
+	margin: 2.8rem 0;
 }
 
 h2 {
@@ -115,16 +115,12 @@ img {
 	border: 1px solid var(--grey-800);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
 	body {
 		font-size: 1.6rem;
 	}
 
 	.container {
-		/* display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh; */
 		margin: 2rem 0;
 	}
 }
