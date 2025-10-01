@@ -78,9 +78,9 @@ input[type="submit"] {
 	border-radius: 0.4rem;
 }
 
-input[type="submit"]:active {
-	border-color: var(--primary-color);
-}
+/* input[type="text"]:active {
+	border: 1px solid var(--primary-color);
+} */
 
 label {
 	display: block;
@@ -90,6 +90,13 @@ label {
 input {
 	width: 100%;
 	height: 4rem;
+
+	padding: 0.4rem;
+	border: 1px solid var(--grey-800);
+}
+
+input:active {
+	border: 1px solid var(--primary-color);
 }
 
 img {
