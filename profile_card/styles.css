@@ -11,3 +11,10 @@
 html {
 	font-size: 62.5%;
 }
+
+.container {
+	width: 80%;
+	max-width: 70rem;
+
+	border: 2px solid green;
+}
