@@ -40,6 +40,14 @@ form div {
 	margin: 2rem 0;
 }
 
+input[type="submit"] {
+	width: initial;
+
+	margin: 2rem 0;
+
+	padding: auto 1.2rem;
+}
+
 label {
 	display: block;
 	margin: 0.4rem 0;
