@@ -32,7 +32,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	/* height: 100vh; */
 
 	margin: 4rem 0;
 }
@@ -118,8 +118,8 @@ img {
 	border: 1px solid var(--grey-800);
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
 	.main {
-		/* max-width: 100px; */
+		max-width: 100px;
 	}
-}
+} */
