@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-	border: 2px solid green;
+	/* border: 2px solid green; */
 	height: 100vh;
 
 	display: flex;
@@ -42,7 +42,7 @@ body {
 }
 
 main {
-	border: 2px solid red;
+	/* border: 2px solid red; */
 
 	/* width: 70%; */
 	max-width: 375px;
@@ -102,11 +102,10 @@ img {
 	margin: 1.2rem 0;
 	text-align: center;
 	background-color: var(--grey-700);
-
-	border-radius: 0.4rem;
 }
 
 a {
+	border-radius: 0.4rem;
 	padding: 0.8rem;
 	/* border: 2px solid blue; */
 
@@ -118,9 +117,14 @@ a {
 
 @media (max-width: 1600px) {
 	main {
-		border: 2px solid red;
+		/* border: 2px solid red; */
 
 		/* width: 70%; */
 		max-width: 1440px;
+	}
+
+	a:hover {
+		background-color: var(--green);
+		color: var(--grey-900);
 	}
 }
