@@ -10,9 +10,7 @@
 
 :root {
 	--green: hsl(75, 94%, 57%);
-
 	--white: hsl(0, 0%, 100%);
-
 	--grey-700: hsl(0, 0%, 20%);
 	--grey-800: hsl(0, 0%, 12%);
 	--grey-900: hsl(0, 0%, 8%);
@@ -20,21 +18,17 @@
 
 html {
 	font-size: 62.5%;
-
 	font-family: "Montserrat", sans-serif;
 }
 
 body {
 	background-color: var(--grey-900);
-
 	color: var(--white);
-
 	font-size: 1.4rem;
 }
 
 .container {
-	height: 100vh;
-
+	/* height: 100vh; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -42,24 +36,18 @@ body {
 
 main {
 	max-width: 375px;
-
 	background-color: var(--grey-800);
-
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-
 	padding: 4rem;
-
 	border-radius: 0.8rem;
 }
 
 img {
 	width: 10rem;
 	height: 10rem;
-
 	border-radius: 50%;
-
 	object-fit: cover;
 
 	/* margin-bottom: 1.6rem; */
@@ -67,9 +55,7 @@ img {
 
 .details {
 	text-align: center;
-
 	margin: 2rem 0;
-
 	font-weight: 700;
 }
 
@@ -88,11 +74,9 @@ img {
 .links {
 	width: 100%;
 	font-weight: 700;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 	margin: 0;
 }
 
@@ -109,10 +93,8 @@ img {
 
 a {
 	padding: 1.2rem;
-
 	color: var(--white);
 	display: block;
-
 	text-decoration: none;
 }
 
