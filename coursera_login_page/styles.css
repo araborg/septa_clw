@@ -114,3 +114,9 @@ img {
 	background-color: var(--white);
 	border: 1px solid var(--grey-800);
 }
+
+@media (min-width: 1200px) {
+	body {
+		font-size: 1.6rem;
+	}
+}
