@@ -38,7 +38,6 @@ body {
 	justify-content: center;
 	align-items: center;
 
-	/* margin: 4rem 0; */
 	height: 100vh;
 }
 
@@ -49,8 +48,6 @@ h2 {
 main {
 	width: 80%;
 	max-width: 375px;
-
-	/* border: 2px solid red; */
 }
 
 form div {
@@ -80,13 +77,19 @@ input[type="submit"] {
 	border-radius: 0.4rem;
 }
 
-/* input[type="text"]:active {
-	border: 1px solid var(--primary-color);
-} */
-
 input[type="text"],
 input[type="password"] {
 	border: 1px solid var(--grey-700);
+
+	border-radius: 0.4rem;
+	padding: 0.2rem 0.8rem;
+
+	color: var(--grey-800);
+}
+input[type="text"]:active,
+input[type="password"]:active {
+	border: 1px solid var(--primary-color);
+	outline: none;
 }
 
 label {
