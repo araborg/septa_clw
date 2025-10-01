@@ -13,3 +13,7 @@
 	--bg-color: rgb(249 250 251);
 	--text-color: rgb(17 24 39);
 }
+
+body {
+	font-family: "Raleway", Arial, sans-serif;
+}
