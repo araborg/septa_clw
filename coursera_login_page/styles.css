@@ -74,10 +74,13 @@ input[type="password"] {
 	border-radius: 0.4rem;
 	padding: 0.2rem 0.8rem;
 	color: var(--grey-800);
+
+	outline: none;
 }
-input[type="text"]:active,
-input[type="password"]:active {
-	border: 1px solid var(--primary-color);
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	border: 2px solid var(--primary-color);
 }
 
 label {
@@ -92,9 +95,9 @@ input {
 	padding: 0.4rem;
 }
 
-input:active {
+/* input:active {
 	border: 1px solid var(--primary-color);
-}
+} */
 
 img {
 	width: 20px;
@@ -113,7 +116,7 @@ img {
 
 .login-options a {
 	display: inline-block;
-	padding: 0.8rem 1.6rem;
+	padding: 0.8rem 1.2rem;
 	background-color: var(--white);
 	border: 1px solid var(--grey-800);
 }
