@@ -119,4 +119,12 @@ img {
 	body {
 		font-size: 1.6rem;
 	}
+
+	.container {
+		/* display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; */
+		margin: 2rem 0;
+	}
 }
