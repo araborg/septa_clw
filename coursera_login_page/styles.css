@@ -11,7 +11,6 @@
 :root {
 	--white: hsl(0, 0%, 100%);
 	--grey-700: hsl(0, 0%, 20%);
-
 	--grey-800: hsl(0, 0%, 12%);
 	--grey-900: hsl(0, 0%, 8%);
 	--primary-color: #3a10e5;
@@ -24,20 +23,15 @@ html {
 
 body {
 	font-family: "Roboto", sans-serif;
-
 	font-size: 1.4rem;
-
 	background-color: var(--bg-color);
 	color: var(--grey-900);
 }
 
 .container {
-	border: 2px solid black;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	height: 100vh;
 }
 
