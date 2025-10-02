@@ -115,7 +115,7 @@ img {
 	border: 1px solid var(--grey-800);
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
 	body {
 		font-size: 1.6rem;
 	}
@@ -123,4 +123,4 @@ img {
 	.container {
 		margin: 4rem 0;
 	}
-}
+} */
