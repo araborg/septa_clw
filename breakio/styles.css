@@ -76,7 +76,8 @@ div p {
 	font-weight: 800;
 }
 
-p span {
+p span,
+.nav-icon {
 	background-image: linear-gradient(
 		135deg,
 		var(--primary-color-0) 5%,
@@ -85,6 +86,10 @@ p span {
 
 	background-clip: text;
 	color: transparent;
+}
+
+.nav-icon {
+	cursor: pointer;
 }
 
 /* hero */
