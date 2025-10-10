@@ -21,10 +21,22 @@ html {
 body {
 	font-family: "Roboto", sans-serif;
 	font-size: 1.2rem;
+
+	max-width: initial;
+}
+
+main {
+	/* width: 100%; */
 }
 
 /* general style */
 .container {
+	/* width: 100%; */
+	/* width: 500px; */
+}
+
+header,
+section {
 	width: 100%;
 	max-width: 375px;
 
@@ -44,9 +56,9 @@ ul {
 	display: none;
 }
 
-img {
-	width: 100%;
-}
+/* img { */
+/* width: 100%; */
+/* } */
 
 div p {
 	background-image: linear-gradient(
@@ -64,6 +76,19 @@ div p {
 	font-weight: 900; */
 }
 
+/* hero */
+.hero {
+	/* width: 100%; */
+	/* max-width: max-content; */
+
+	width: max-content;
+	border: 2px solid blue;
+}
+
+.hero img {
+	width: 100%;
+	/* max-width: 100%; */
+}
 /* 
 
 Extra Small (Mobile): Up to 480px
