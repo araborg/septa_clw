@@ -22,26 +22,27 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-size: 1.2rem;
 
-	max-width: initial;
+	max-width: 100%;
+	width: 100%;
 }
 
-main {
-	/* width: 100%; */
-}
+/* main { */
+/* width: 100%; */
+/* } */
 
 /* general style */
 .container {
-	/* width: 100%; */
+	width: 100%;
 	/* width: 500px; */
 }
 
-header,
+/* header,
 section {
 	width: 100%;
 	max-width: 375px;
 
 	margin: 3rem auto;
-}
+} */
 
 nav {
 	display: flex;
@@ -54,6 +55,11 @@ nav {
 ul {
 	visibility: hidden;
 	display: none;
+}
+
+header + img {
+	/* width: inherit; */
+	width: 100%;
 }
 
 /* img { */
