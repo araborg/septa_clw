@@ -123,16 +123,24 @@ h1 + p {
 form {
 	width: 100%;
 
-	border: 3px solid blue;
+	/* border: 3px solid blue; */
 
 	display: flex;
 	justify-content: space-between;
 
 	margin: 2rem 0;
+
+	border-radius: 4px;
 }
 
-input {
-	/* width: initial; */
+input[type="text"] {
+	width: 70%;
+}
+
+input[type="button"] {
+	width: initial;
+
+	padding: 1.2rem 2rem;
 }
 
 /* 
