@@ -38,7 +38,6 @@ nav {
 	justify-content: space-between;
 
 	font-size: 2.4rem;
-	border: 2px solid green;
 }
 
 ul {
@@ -73,6 +72,9 @@ div p {
 }
 
 /* header */
+.logo {
+	font-weight: 800;
+}
 
 p span {
 	background-image: linear-gradient(
