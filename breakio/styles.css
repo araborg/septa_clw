@@ -231,12 +231,12 @@ section button {
 	margin: 0 auto;
 
 	padding: 0 0.8rem;
+
+	height: auto;
 }
 
 /* img div container */
 .img {
-	border: 2px solid yellowgreen;
-
 	margin: 2rem 0;
 
 	border: 2px solid var(--tertiary-color);
@@ -244,7 +244,7 @@ section button {
 
 	border-radius: 2rem;
 
-	height: 30rem;
+	height: auto;
 
 	display: flex;
 	flex-direction: column;
@@ -258,25 +258,21 @@ section button {
 	border-top-left-radius: 2rem;
 	border-top-right-radius: 2rem;
 
-	/* outline: none; */
+	display: block;
 
-	height: 80%;
+	width: 50rem;
+	max-width: 60rem;
 
 	object-fit: cover;
 }
 
 /* inner div container */
 img + div {
-	border: 2px solid green;
+	border: 2px solid red;
 
-	/* display: block; */
-	/* width: 100%; */
-
-	/* padding: 4rem 0; */
-	/* height: 8rem; */
+	height: 8rem;
 
 	display: flex;
-	/* justify-content: space-between; */
 	align-items: center;
 
 	padding: 0 2rem;
@@ -284,6 +280,10 @@ img + div {
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 2rem;
 }
+
+/* img + div img {
+	margin-right: 2rem;
+} */
 
 /* inner inner div container */
 img + div div {
