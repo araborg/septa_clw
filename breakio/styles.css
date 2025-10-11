@@ -117,13 +117,11 @@ h1 {
 }
 
 h1 + p {
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 }
 
 form {
 	width: 100%;
-
-	/* border: 3px solid blue; */
 
 	display: flex;
 	justify-content: space-between;
@@ -134,7 +132,6 @@ form {
 form input {
 	border-radius: 20px;
 
-	/* padding: 1.2rem; */
 	padding: 1.2rem 1.6rem;
 	font-size: 1.6rem;
 
@@ -148,7 +145,6 @@ input[type="text"] {
 }
 
 input[type="button"] {
-	/* width: initial; */
 	color: var(--white);
 	font-weight: 700;
 	border: none;
@@ -181,7 +177,7 @@ h2 {
 }
 
 h2 + p {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	margin: 2.4rem 0;
 	/* text-align: justify; */
 	word-spacing: 0.04rem;
@@ -211,12 +207,6 @@ section button {
 
 	justify-content: space-between;
 	align-items: center;
-
-	/* margin: 0 auto; */
-
-	/* padding: 0 0.8rem; */
-
-	/* height: auto; */
 }
 
 /* img div container */
@@ -229,12 +219,6 @@ section button {
 	border-radius: 2rem;
 
 	font-size: 2rem;
-
-	/* height: auto; */
-
-	/* display: flex; */
-	/* flex-direction: column; */
-	/* justify-content: space-between; */
 }
 
 /* 1st img */
