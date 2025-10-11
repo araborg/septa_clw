@@ -223,15 +223,8 @@ section button {
 
 /* 1st img */
 .img img {
-	/* border: 2px solid black; */
-
 	border-top-left-radius: 2rem;
 	border-top-right-radius: 2rem;
-
-	/* display: block; */
-
-	/* width: 50rem; */
-	/* max-width: 60rem; */
 
 	height: 40rem;
 
@@ -240,8 +233,6 @@ section button {
 
 /* inner div container */
 img + div {
-	/* height: 8rem; */
-
 	display: flex;
 	align-items: center;
 
@@ -251,17 +242,11 @@ img + div {
 	border-bottom-right-radius: 2rem;
 }
 
-/* img + div img {
-	margin-right: 2rem;
-} */
-
 /* inner inner div container */
 img + div div {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-
-	/* width: initial; */
 }
 
 /* 2nd img */
@@ -269,8 +254,8 @@ img + div div {
 	/* border: 2px solid red; */
 	display: block;
 
-	width: 8rem;
-	height: 8rem;
+	width: 7.2rem;
+	height: 7.2rem;
 
 	border-radius: 50%;
 	object-fit: cover;
