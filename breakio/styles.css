@@ -223,6 +223,7 @@ section button {
 /* gallery */
 .gallery {
 	display: flex;
+	flex-direction: column;
 	/* flex: 1; */
 	overflow: hidden;
 }
