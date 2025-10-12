@@ -378,7 +378,7 @@ footer ul {
 		/* display: block; */
 		visibility: visible;
 
-		border: 2px solid red;
+		/* border: 2px solid red; */
 
 		display: flex;
 		align-items: center;
@@ -389,15 +389,25 @@ footer ul {
 		list-style: none;
 	}
 
+	nav ul li:last-child {
+		background-color: var(--primary-color-100);
+	}
+
+	nav ul li:last-child a {
+		color: var(--white);
+	}
+
 	nav ul li a {
-		margin-right: 0.8rem;
+		margin-right: 2rem;
+		display: block;
 
 		text-decoration: none;
 		font-size: 1.6rem;
-	}
 
-	nav ul li:last-child {
-		background-color: var(--primary-color-100);
+		padding: 0.8rem;
+
+		color: var(--blue-gray);
+		font-weight: 700;
 	}
 
 	.nav-icon {
