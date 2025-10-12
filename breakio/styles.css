@@ -144,29 +144,22 @@ input[type="button"] {
 
 h2 {
 	font-size: 2.4rem;
-
 	background-image: linear-gradient(
 		135deg,
 		var(--primary-color-0) 5%,
 		var(--primary-color-100) 30%
 	);
-
 	background-clip: text;
 	color: transparent;
-
 	font-weight: 800;
 	margin: 1.2rem 0;
-
 	letter-spacing: 0.04rem;
 }
 
 h2 + p {
 	font-size: 1.6rem;
 	margin: 2.4rem 0;
-	/* text-align: justify; */
 	word-spacing: 0.04rem;
-	/* word-wrap: break-word; */
-
 	color: var(--blue-gray);
 }
 
