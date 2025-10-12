@@ -269,10 +269,8 @@ h2 + div p:last-child {
 h2 + div img {
 	width: 4.4rem;
 	height: 4.4rem;
-
 	border-radius: 50%;
 	object-fit: cover;
-
 	margin-top: 2rem;
 	margin-bottom: 1.6rem;
 }
@@ -289,28 +287,19 @@ h2 + div img {
 }
 
 .grid i {
-	/* font-weight: 300; */
-
 	font-size: 4rem;
-
 	outline: none;
-
 	margin: 1.2rem 0;
-
 	color: var(--primary-color-100);
-
-	/* border: 2px solid green; */
 }
 
 .grid h4 {
 	margin: 1.2rem 0;
-
 	font-size: 2rem;
 }
 
 .grid p {
 	font-size: 1.6rem;
-
 	color: var(--secondary-color);
 }
 
@@ -325,11 +314,8 @@ h2 + div img {
 .question {
 	margin: 2rem 0;
 	padding: 1.2rem;
-
 	text-align: left;
-
 	border-radius: 8px;
-
 	background-color: var(--white);
 }
 
@@ -341,7 +327,6 @@ footer {
 .footer-column {
 	margin-top: 2.4rem;
 	margin-bottom: 4.4rem;
-
 	color: var(--secondary-color);
 }
 
@@ -357,7 +342,6 @@ footer h4 {
 }
 
 footer ul {
-	/* text- */
 	list-style: none;
 }
 
@@ -366,7 +350,6 @@ footer ul {
 }
 
 .social *:last-child {
-	/* padding: 2rem 0; */
 	padding-bottom: 0.8rem;
 }
 
