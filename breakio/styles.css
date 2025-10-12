@@ -279,14 +279,26 @@ span + div p:first-child {
 
 h2 + div {
 	border: 2px solid green;
+	padding: 2rem;
+}
+
+h2 + div p:first-child {
+	margin: 2rem 0;
+}
+
+h2 + div p:last-child {
+	margin: 2rem 0;
 }
 
 h2 + div img {
-	width: 7.2rem;
-	height: 7.2rem;
+	width: 4.4rem;
+	height: 4.4rem;
 
 	border-radius: 50%;
 	object-fit: cover;
+
+	margin-top: 2rem;
+	margin-bottom: 1.6rem;
 }
 
 /* favorite tools */
