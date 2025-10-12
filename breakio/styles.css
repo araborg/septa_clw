@@ -412,6 +412,10 @@ footer ul {
 	list-style: none;
 }
 
+.social-icons {
+	display: flex;
+}
+
 /* media queries */
 @media (min-width: 480px) {
 	.container {
