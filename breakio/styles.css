@@ -281,6 +281,28 @@ h2 + div {
 	border: 2px solid green;
 }
 
+/* favorite tools */
+
+.grids {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.grid {
+	margin: 2.4rem 0;
+}
+
+.grid i {
+	/* font-weight: 300; */
+
+	font-size: 4rem;
+
+	outline: none;
+
+	/* border: 2px solid green; */
+}
+
 /* media queries */
 @media (min-width: 480px) {
 	.container {
