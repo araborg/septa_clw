@@ -66,6 +66,9 @@ section img {
 /* header */
 .logo {
 	font-weight: 800;
+
+	display: flex;
+	align-items: center;
 }
 
 p span,
