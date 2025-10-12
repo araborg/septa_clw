@@ -368,11 +368,15 @@ h2 + div img {
 /* faq */
 
 .faq {
+	padding: 2rem;
+	text-align: center;
 	background-color: var(--tertiary-color);
 }
 
 .question {
 	margin: 2rem 0;
+
+	background-color: var(--white);
 }
 
 /* media queries */
