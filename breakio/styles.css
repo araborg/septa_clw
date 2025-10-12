@@ -281,8 +281,15 @@ h2 + div {
 	border: 2px solid green;
 }
 
-/* favorite tools */
+h2 + div img {
+	width: 7.2rem;
+	height: 7.2rem;
 
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+/* favorite tools */
 .grids {
 	display: grid;
 	grid-template-columns: 1fr;
