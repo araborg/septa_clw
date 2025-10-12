@@ -55,7 +55,8 @@ header + img {
 	padding: 0.2rem;
 }
 
-section img {
+section img,
+div.img {
 	width: 100%;
 }
 
