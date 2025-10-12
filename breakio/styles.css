@@ -44,7 +44,7 @@ nav {
 
 nav ul {
 	visibility: hidden;
-	display: none;
+	/* display: none; */
 }
 
 header + img {
@@ -304,7 +304,6 @@ h2 + div img {
 }
 
 /* faq */
-
 .faq {
 	padding: 2rem;
 	text-align: center;
@@ -372,12 +371,18 @@ footer ul {
 @media (min-width: 768px) {
 	.container {
 		width: 100%;
-		max-width: 750px;
+		max-width: 760px;
 	}
 
-	ul {
+	nav ul {
+		/* display: block; */
 		visibility: visible;
-		display: inline-block;
+
+		border: 2px solid red;
+
+		display: flex;
+		text-decoration: none;
+		list-style: none;
 	}
 
 	.nav-icon {
