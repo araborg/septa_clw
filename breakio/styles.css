@@ -362,14 +362,14 @@ footer ul {
 
 /* media queries */
 @media (min-width: 480px) {
-	.container {
+	main {
 		width: 100%;
 		max-width: 450px;
 	}
 }
 
 @media (min-width: 768px) {
-	.container {
+	main {
 		width: 100%;
 		max-width: 760px;
 	}
@@ -391,10 +391,13 @@ footer ul {
 
 	nav ul li:last-child {
 		background-color: var(--primary-color-100);
+		border-radius: 20px;
 	}
 
 	nav ul li:last-child a {
 		color: var(--white);
+
+		margin-right: 0;
 	}
 
 	nav ul li a {
@@ -404,7 +407,7 @@ footer ul {
 		text-decoration: none;
 		font-size: 1.6rem;
 
-		padding: 0.8rem;
+		padding: 1.2rem;
 
 		color: var(--blue-gray);
 		font-weight: 700;
