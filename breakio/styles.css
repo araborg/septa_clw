@@ -414,6 +414,9 @@ footer ul {
 
 .social-icons {
 	display: flex;
+
+	width: 20px;
+	height: 20px;
 }
 
 /* media queries */
