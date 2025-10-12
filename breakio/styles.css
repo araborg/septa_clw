@@ -365,6 +365,16 @@ h2 + div img {
 	color: var(--secondary-color);
 }
 
+/* faq */
+
+.faq {
+	background-color: var(--tertiary-color);
+}
+
+.question {
+	margin: 2rem 0;
+}
+
 /* media queries */
 @media (min-width: 480px) {
 	.container {
