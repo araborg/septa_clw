@@ -381,6 +381,7 @@ footer ul {
 		border: 2px solid red;
 
 		display: flex;
+		align-items: center;
 		list-style: none;
 	}
 
@@ -395,7 +396,7 @@ footer ul {
 		font-size: 1.6rem;
 	}
 
-	nav ul li a:last-child {
+	nav ul li:last-child {
 		background-color: var(--primary-color-100);
 	}
 
