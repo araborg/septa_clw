@@ -412,11 +412,21 @@ footer ul {
 	list-style: none;
 }
 
+.social * {
+	padding: 0.8rem 0;
+}
+
+.social *:last-child {
+	/* padding: 2rem 0; */
+	padding-bottom: 0.8rem;
+}
+
 .social-icons {
 	display: flex;
+}
 
-	width: 20px;
-	height: 20px;
+.social-icons i {
+	margin-right: 1.6rem;
 }
 
 /* media queries */
