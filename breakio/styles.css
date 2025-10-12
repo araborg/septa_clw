@@ -406,7 +406,6 @@ footer ul {
 	.hero {
 		border: 5px solid green;
 		background-image: url("./resources/desktop/desktop_hero.png");
-
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -418,9 +417,7 @@ footer ul {
 
 	.body-img {
 		border: 5px solid red;
-
 		background-image: url("./resources/desktop/body.png");
-
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
