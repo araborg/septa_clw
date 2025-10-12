@@ -300,7 +300,21 @@ h2 + div {
 
 	outline: none;
 
+	margin: 1.2rem 0;
+
+	color: var(--primary-color-100);
+
 	/* border: 2px solid green; */
+}
+
+.grid h4 {
+	margin: 1.2rem 0;
+
+	font-size: 2.8rem;
+}
+
+.grid p {
+	font-size: 2rem;
 }
 
 /* media queries */
