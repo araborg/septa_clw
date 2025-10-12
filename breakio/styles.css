@@ -381,8 +381,22 @@ footer ul {
 		border: 2px solid red;
 
 		display: flex;
-		text-decoration: none;
 		list-style: none;
+	}
+
+	nav ul li {
+		list-style: none;
+	}
+
+	nav ul li a {
+		margin-right: 0.8rem;
+
+		text-decoration: none;
+		font-size: 1.6rem;
+	}
+
+	nav ul li a:last-child {
+		background-color: var(--primary-color-100);
 	}
 
 	.nav-icon {
