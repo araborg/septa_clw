@@ -20,10 +20,8 @@ html {
 body {
 	font-family: "Roboto", sans-serif;
 	font-size: 1.6rem;
-
 	max-width: 100%;
 	width: 100%;
-
 	background-color: #fdfdfd;
 }
 
@@ -31,20 +29,16 @@ header,
 section {
 	width: 90%;
 	max-width: auto;
-
 	margin: 3rem auto;
 }
 
 section {
 	text-align: center;
-
-	/* height: auto; */
 }
 
 nav {
 	display: flex;
 	justify-content: space-between;
-
 	font-size: 2.4rem;
 }
 
@@ -55,7 +49,6 @@ nav ul {
 
 header + img {
 	width: 100%;
-
 	padding: 0.2rem;
 }
 
