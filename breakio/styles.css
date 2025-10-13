@@ -340,19 +340,29 @@ footer {
 	color: var(--secondary-color);
 }
 
-.footer-column h4 {
-	margin-bottom: 1.6rem;
-}
-.footer-column li {
-	margin: 1.6rem 0;
-}
-
 footer h4 {
 	font-weight: normal;
+	margin-bottom: 1.6rem;
+
+	/* border: 2px solid green; */
+}
+
+/* .footer-column h4 {
+} */
+
+.footer-column li {
+	margin: 1.6rem 0;
+
+	text-decoration: none;
 }
 
 footer ul {
 	list-style: none;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: var(--secondary-color);
 }
 
 .social * {
