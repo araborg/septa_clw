@@ -469,6 +469,19 @@ footer ul li a {
 		width: 25%;
 	}
 
+	.hero-img img {
+		visibility: hidden;
+		display: none;
+	}
+
+	.hero-img {
+		background-image: url("../breakio/resources/desktop/desktop_hero.png");
+		background-position: center;
+		background-repeat: no-repeat;
+
+		width: 100%;
+	}
+
 	h2 {
 		font-size: 3.2rem;
 		margin: 2rem 0;
@@ -491,10 +504,9 @@ footer ul li a {
 }
 
 @media (min-width: 1024px) {
-	/* main {
-		width: 100%;
-		max-width: 1000px;
-	} */
+	main {
+		background-color: red;
+	}
 
 	.gallery {
 		display: grid;
