@@ -42,12 +42,12 @@ nav {
 	align-items: center;
 	font-size: 2.4rem;
 
-	height: 4rem;
+	/* height: 4rem; */
 }
 
 nav ul {
 	visibility: hidden;
-	/* display: none; */
+	display: none;
 }
 
 header + img {
@@ -398,6 +398,23 @@ footer ul li a {
 }
 
 @media (min-width: 768px) {
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 2.4rem;
+	}
+
+	nav ul {
+		visibility: visible;
+		display: flex;
+	}
+
+	.nav-icon {
+		visibility: hidden;
+		display: none;
+	}
+
 	/* main {
 		width: 100%;
 		max-width: 760px;
@@ -414,12 +431,12 @@ footer ul li a {
 	}
 
 	nav ul {
-		visibility: visible;
+		/* visibility: visible; */
 
 		/* display: flex; */
 		/* align-items: center;
 		justify-content: space-between; */
-		list-style: none;
+		/* list-style: none; */
 	}
 
 	nav ul li {
@@ -428,19 +445,19 @@ footer ul li a {
 	}
 
 	nav ul li:last-child {
-		background-color: var(--primary-color-100);
+		/* background-color: var(--primary-color-100);
 		border-radius: 20px;
 		color: var(--white);
 		margin-right: 0;
 
-		border: 2px solid red;
+		border: 2px solid red; */
 	}
 
 	/* nav ul li:last-child a {
 	} */
 
 	nav ul li a {
-		display: block;
+		/* display: block;
 
 		text-decoration: none;
 		font-size: 1.6rem;
@@ -448,7 +465,7 @@ footer ul li a {
 		padding: 1.2rem;
 
 		color: var(--blue-gray);
-		font-weight: 700;
+		font-weight: 700; */
 	}
 
 	/* nav ul li:last-child {
@@ -457,7 +474,7 @@ footer ul li a {
 
 	.nav-icon {
 		/* display: none; */
-		visibility: hidden;
+		/* visibility: hidden; */
 	}
 
 	/* hero */
