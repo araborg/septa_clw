@@ -386,11 +386,6 @@ footer ul li a {
 
 /* media queries */
 @media (min-width: 480px) {
-	/* main {
-		width: 100%;
-		max-width: 450px;
-	} */
-
 	.footer-col-container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -457,6 +452,7 @@ footer ul li a {
 
 	form {
 		width: 70%;
+		max-width: 60rem;
 		margin: 0 auto;
 		/* text-align: center; */
 		display: flex;
