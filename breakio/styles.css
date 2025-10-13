@@ -27,8 +27,8 @@ body {
 
 header,
 section {
-	width: 90%;
-	max-width: auto;
+	/* width: 90%; */
+	max-width: 90%;
 	margin: 3rem auto;
 }
 
@@ -403,16 +403,28 @@ footer ul li a {
 		max-width: 760px;
 	} */
 
+	header
+    /* , */
+/* section  */ {
+		/* width: 100%; */
+		/* max-width: auto; */
+	}
+
+	nav {
+	}
+
 	nav ul {
 		visibility: visible;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+
+		/* display: flex; */
+		/* align-items: center;
+		justify-content: space-between; */
 		list-style: none;
 	}
 
 	nav ul li {
-		list-style: none;
+		/* list-style: none; */
+		/* margin-right: 2rem; */
 	}
 
 	nav ul li:last-child {
@@ -420,13 +432,14 @@ footer ul li a {
 		border-radius: 20px;
 		color: var(--white);
 		margin-right: 0;
+
+		border: 2px solid red;
 	}
 
 	/* nav ul li:last-child a {
 	} */
 
 	nav ul li a {
-		margin-right: 2rem;
 		display: block;
 
 		text-decoration: none;
@@ -437,6 +450,10 @@ footer ul li a {
 		color: var(--blue-gray);
 		font-weight: 700;
 	}
+
+	/* nav ul li:last-child {
+		margin-right: 0;
+	} */
 
 	.nav-icon {
 		/* display: none; */
