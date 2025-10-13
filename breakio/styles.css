@@ -411,6 +411,16 @@ footer ul li a {
 
 		margin-bottom: 5.6rem;
 	}
+
+	.mobile-body-img {
+		visibility: hidden;
+		display: none;
+	}
+
+	.desktop-body-img {
+		visibility: visible;
+		display: block;
+	}
 }
 
 @media (min-width: 768px) {
