@@ -147,8 +147,14 @@ input[type="button"] {
 }
 
 /* body*/
-.mobile-body-img {
+
+.body-img {
 	width: 100%;
+}
+
+.desktop-body-img {
+	visibility: hidden;
+	display: none;
 }
 
 h2 {
