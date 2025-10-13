@@ -395,6 +395,16 @@ footer ul li a {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 	}
+
+	form {
+		width: 52%;
+		max-width: 52rem;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+
+		margin-bottom: 5.6rem;
+	}
 }
 
 @media (min-width: 768px) {
@@ -455,16 +465,18 @@ footer ul li a {
 		font-size: 1.6rem;
 	}
 
-	form {
-		width: 70%;
-		max-width: 60rem;
+	/* form {
+		width: 42%;
+		max-width: 52rem;
 		margin: 0 auto;
-		/* text-align: center; */
+		text-align: center;
 		display: flex;
 		justify-content: space-between;
 
 		margin-bottom: 5.6rem;
-	}
+
+		border: 2px solid red;
+	} */
 
 	input[type="text"] {
 		width: 70%;
@@ -474,17 +486,14 @@ footer ul li a {
 		width: 25%;
 	}
 
-	.hero-img img {
-		visibility: hidden;
+	.hero-img img:first-child {
 		display: none;
+		visibility: hidden;
 	}
 
-	.hero-img {
-		background-image: url("../breakio/resources/desktop/desktop_hero.png");
-		background-position: center;
-		background-repeat: no-repeat;
-
-		width: 100%;
+	.hero-img img:last-child {
+		display: block;
+		visibility: visible;
 	}
 
 	h2 {
