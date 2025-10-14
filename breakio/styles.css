@@ -508,12 +508,8 @@ footer ul li a {
 @media (min-width: 1024px) {
 	.gallery {
 		display: grid;
-
 		grid-template-columns: 1fr 1fr;
 		gap: 4rem;
-		/* flex-direction: column;
-	justify-content: space-between;
-	align-items: center; */
 	}
 
 	.grids {
@@ -523,11 +519,6 @@ footer ul li a {
 }
 
 @media (min-width: 1200px) {
-	/* main {
-		width: 100%;
-		max-width: 1000px;
-	} */
-
 	.mobile-hero {
 		visibility: hidden;
 	}
