@@ -252,8 +252,6 @@ span + div p:first-child {
 
 /* what others says */
 .section-bg {
-	/* border: 2px solid black; */
-	/* background-color: var(--secondary-color); */
 	background-color: #e2e2e2;
 	padding: 4rem 1.6rem;
 	text-align: center;
@@ -297,7 +295,6 @@ h2 + div img {
 }
 
 /* favorite tools */
-
 .grids {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -354,12 +351,7 @@ footer {
 footer h4 {
 	font-weight: normal;
 	margin-bottom: 1.6rem;
-
-	/* border: 2px solid green; */
 }
-
-/* .footer-column h4 {
-} */
 
 .footer-column li {
 	margin: 1.6rem 0;
