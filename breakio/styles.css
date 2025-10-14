@@ -532,13 +532,6 @@ footer ul li a {
 		padding: 0;
 	}
 
-	/* .gallery {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-} */
-
 	.footer-col-container {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
