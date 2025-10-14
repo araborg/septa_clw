@@ -423,7 +423,7 @@ footer ul li a {
 	nav ul li a {
 		display: block;
 		text-decoration: none;
-		font-size: 1.6rem;
+		/* font-size: 1.6rem; */
 		padding: 1.2rem;
 		color: var(--blue-gray);
 		color: var();
@@ -519,6 +519,14 @@ footer ul li a {
 }
 
 @media (min-width: 1200px) {
+	nav {
+		font-size: 3.6rem;
+	}
+
+	nav ul li a {
+		font-size: 2.4rem;
+	}
+
 	.mobile-hero {
 		visibility: hidden;
 	}
