@@ -523,26 +523,6 @@ footer ul li a {
 		visibility: hidden;
 	}
 
-	.hero {
-		border: 5px solid green;
-		background-image: url("./resources/desktop/desktop_hero.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-
-	.mobile-body-img {
-		visibility: hidden;
-	}
-
-	.body-img {
-		border: 5px solid red;
-		background-image: url("./resources/desktop/body.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-
 	.footer-col-container {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
