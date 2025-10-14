@@ -176,6 +176,7 @@ h2 + p {
 	margin: 2.4rem 0;
 	word-spacing: 0.04rem;
 	color: var(--blue-gray);
+	padding: 0 2rem;
 }
 
 section button {
@@ -385,6 +386,21 @@ footer ul li a {
 
 /* media queries */
 @media (min-width: 480px) {
+	h2 + p {
+		padding: 0 2.4rem;
+	}
+
+	form div {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	input[type="text"] {
+		width: 70%;
+		max-width: 240rem;
+		margin-right: 2rem;
+	}
+
 	.footer-col-container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -423,10 +439,9 @@ footer ul li a {
 	nav ul li a {
 		display: block;
 		text-decoration: none;
-		/* font-size: 1.6rem; */
+		font-size: 1.6rem;
 		padding: 1.2rem;
 		color: var(--blue-gray);
-		color: var();
 		font-weight: 700;
 	}
 
@@ -442,6 +457,11 @@ footer ul li a {
 
 	.hero-section p {
 		font-size: 1.6rem;
+	}
+
+	h2 + p {
+		padding: 0 12rem;
+		font-size: 2rem;
 	}
 
 	form div {
@@ -469,10 +489,6 @@ footer ul li a {
 		font-size: 3.2rem;
 		margin: 2rem 0;
 		letter-spacing: 0.08rem;
-	}
-
-	h2 + p {
-		font-size: 2rem;
 	}
 
 	section button {
@@ -506,6 +522,10 @@ footer ul li a {
 }
 
 @media (min-width: 1024px) {
+	h2 + p {
+		padding: 0 13.2rem;
+	}
+
 	.gallery {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -529,6 +549,22 @@ footer ul li a {
 
 	.mobile-hero {
 		visibility: hidden;
+	}
+
+	form div {
+		max-width: 68rem;
+		margin: 0 auto;
+	}
+
+	h2 + p {
+		/* width: 72rem; */
+		padding: 0 24rem;
+	}
+
+	input[type="text"] {
+		width: 70%;
+		max-width: 240rem;
+		margin-right: 2rem;
 	}
 
 	.gallery {
