@@ -355,7 +355,6 @@ footer h4 {
 
 .footer-column li {
 	margin: 1.6rem 0;
-
 	text-decoration: none;
 }
 
@@ -423,14 +422,10 @@ footer ul li a {
 
 	nav ul li a {
 		display: block;
-
 		text-decoration: none;
 		font-size: 1.6rem;
-
 		padding: 1.2rem;
-
 		color: var(--blue-gray);
-
 		color: var();
 		font-weight: 700;
 	}
@@ -442,7 +437,6 @@ footer ul li a {
 	/* hero */
 	.hero-section h1 {
 		font-size: 4.2rem;
-
 		margin-top: 7.2rem;
 	}
 
@@ -450,50 +444,15 @@ footer ul li a {
 		font-size: 1.6rem;
 	}
 
-	/* form {
-		width: 52%;
-		max-width: 42rem;
-
-		margin: 0 auto;
-		display: flex;
-		justify-content: space-between;
-
-		margin-bottom: 5.6rem;
-	} */
-
 	form div {
-		/* display: flex; */
-		/* justify-content: center; */
 		width: 70%;
-
 		margin: 0 auto;
-	}
-
-	div input {
-		/* border-radius: 20px;
-		padding: 1.2rem 1.6rem;
-		font-size: 1.6rem;
-		outline: none;
-		border: 1px solid var(--tertiary-color); */
 	}
 
 	input[type="text"] {
 		width: 70%;
 		max-width: 240rem;
-
 		margin-right: 2rem;
-	}
-
-	form input:first-child {
-		/* width: 60%; */
-	}
-
-	input[type="text"] {
-		/* width: 70%; */
-	}
-
-	input[type="button"] {
-		/* width: 25%; */
 	}
 
 	.hero-img img:first-child {
@@ -536,16 +495,9 @@ footer ul li a {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: 1fr;
 		justify-content: center;
-
 		gap: 4rem;
 
-		/* width: 100%; */
-		/* max-width: 32rem; */
-
 		margin: 0;
-		/* margin: 0 auto; */
-
-		/* text-align-last: left; */
 	}
 
 	.footer-col-container {
