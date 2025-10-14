@@ -472,7 +472,7 @@ footer ul li a {
 		font-size: 1.6rem;
 	}
 
-	form {
+	/* form {
 		width: 52%;
 		max-width: 42rem;
 
@@ -481,18 +481,41 @@ footer ul li a {
 		justify-content: space-between;
 
 		margin-bottom: 5.6rem;
+	} */
+
+	form div {
+		/* display: flex; */
+		/* justify-content: center; */
+		width: 70%;
+
+		margin: 0 auto;
 	}
 
-	form input:first-child {
-		width: 60%;
+	div input {
+		/* border-radius: 20px;
+		padding: 1.2rem 1.6rem;
+		font-size: 1.6rem;
+		outline: none;
+		border: 1px solid var(--tertiary-color); */
 	}
 
 	input[type="text"] {
 		width: 70%;
+		max-width: 240rem;
+
+		margin-right: 2rem;
+	}
+
+	form input:first-child {
+		/* width: 60%; */
+	}
+
+	input[type="text"] {
+		/* width: 70%; */
 	}
 
 	input[type="button"] {
-		width: 25%;
+		/* width: 25%; */
 	}
 
 	.hero-img img:first-child {
