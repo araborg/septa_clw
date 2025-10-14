@@ -523,6 +523,22 @@ footer ul li a {
 		visibility: hidden;
 	}
 
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 1fr;
+		gap: 2rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	/* .gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+} */
+
 	.footer-col-container {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
