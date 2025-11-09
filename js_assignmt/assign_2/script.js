@@ -73,6 +73,7 @@ console.log(result); //  [ "Kola", "Uche", "Alli", "Godfrey", "Salah" ]
 // Use an if...else to assign grades (A, B, C, D, F) based on their score.
 const score = document.querySelector("#score");
 const btn = document.querySelector("#btn");
+const output = document.querySelector(".output");
 
 function getInput(e) {
 	e.preventDefault();
@@ -98,6 +99,9 @@ function getInput(e) {
 	} else {
 		grade = "F";
 	}
+
+	output.textContent = grade;
+	score.textContent = "";
 }
 
 btn.addEventListener("click", getInput);
