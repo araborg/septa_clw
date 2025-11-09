@@ -101,7 +101,7 @@ function getInput(e) {
 	}
 
 	output.textContent = grade;
-	score.textContent = "";
+	score.value = "";
 }
 
 btn.addEventListener("click", getInput);
