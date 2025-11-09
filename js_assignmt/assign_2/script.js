@@ -1,8 +1,12 @@
 /*
 Student Grades Manager
-Goal: Create a program that manages a list of students and their scores.
+Goal: 
+Create a program that manages a list of students 
+and their scores.
+
 Requirements:
-    •    Store at least 5 students as objects in an array (each with a name and score).
+    •    Store at least 5 students as objects in an 
+    array (each with a name and score).
 
     •    Use:
     
@@ -19,3 +23,15 @@ Requirements:
 
 
 */
+
+const studentList = [
+	{ name: "Kola", score: 60 },
+
+	{ name: "Uche", score: 80 },
+
+	{ name: "Alli", score: 50 },
+
+	{ name: "Godfrey", score: 30 },
+
+	{ name: "Salah", score: 70 },
+];
