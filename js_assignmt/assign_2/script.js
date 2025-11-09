@@ -52,7 +52,19 @@ const scoresAbove50 = studentList
 console.log(scoresAbove50); // ["Kola", "Uche", "Alli", "Salah" ]
 
 // reduce() to find the average score.
+const averageScore =
+	studentList
+		.map((student) => student.score)
+		.reduce((accu, el) => accu + el, 0) / studentNames.length;
+
+console.log(averageScore); // 58
 
 // A for loop to display all student results in the console.
+let result;
+
+for (let i = 0; i < studentNames.length; i++) {
+	result = studentList[i];
+	console.log(result.score);
+}
 
 // Use an if...else to assign grades (A, B, C, D, F) based on their score.
