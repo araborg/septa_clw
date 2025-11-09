@@ -6,9 +6,24 @@
 	padding: 0;
 }
 
+body {
+	height: 100vh;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 50%;
+	align-items: center;
+}
+
+.inner-container {
+	/* width: 50%; */
+}
+
+.output {
+	margin: 3rem 0;
+	font-size: 2.4rem;
+	color: red;
+	text-align: center;
 }
