@@ -90,15 +90,29 @@ result = a !== b;
 console.log(result); // true
 
 // 16. > Greater than
+result = a > b;
+console.log(result); // false
 
 // 17. < Less than
+result = a < b;
+console.log(result); // true
 
 // 18. >= Greater than or equal to
+result = a >= b;
+console.log(result); // false
 
 // 19. <= Less than or equal to
+result = a <= b;
+console.log(result); // true
 
 // 20. && Logical AND
+result = a && b;
+console.log(result); // 2
 
 // 21. || Logical OR
+result = a || b;
+console.log(result); // 1
 
 // 22. ! Logical NOT
+result = !false;
+console.log(result); // true
