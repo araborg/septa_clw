@@ -74,6 +74,30 @@ console.log(result); //  [ "Kola", "Uche", "Alli", "Godfrey", "Salah" ]
 const score = document.querySelector("#score");
 const btn = document.querySelector("#btn");
 
-function getInput() {}
+function getInput(e) {
+	e.preventDefault();
+
+	const inputScore = Number(score.value);
+
+	let grade;
+
+	if (inputScore >= 90) {
+		grade = "A+";
+	} else if (inputScore >= 80) {
+		grade = "A";
+	} else if (inputScore >= 70) {
+		grade = "B";
+	} else if (inputScore >= 60) {
+		grade = "B";
+	} else if (inputScore >= 50) {
+		grade = "C";
+	} else if (inputScore >= 40) {
+		grade = "D";
+	} else if (inputScore >= 30) {
+		grade = "E";
+	} else {
+		grade = "F";
+	}
+}
 
 btn.addEventListener("click", getInput);
