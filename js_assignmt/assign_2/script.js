@@ -60,11 +60,20 @@ const averageScore =
 console.log(averageScore); // 58
 
 // A for loop to display all student results in the console.
-let result;
+let result = [];
 
 for (let i = 0; i < studentNames.length; i++) {
-	result = studentList[i];
-	console.log(result.score);
+	let score = studentList[i];
+
+	result.push(score.name);
 }
 
+console.log(result); //  [ "Kola", "Uche", "Alli", "Godfrey", "Salah" ]
+
 // Use an if...else to assign grades (A, B, C, D, F) based on their score.
+const score = document.querySelector("#score");
+const btn = document.querySelector("#btn");
+
+function getInput() {}
+
+btn.addEventListener("click", getInput);
