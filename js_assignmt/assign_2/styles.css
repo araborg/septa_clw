@@ -10,16 +10,27 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 	height: 100vh;
 }
 
 .inner-container {
-	border: 2px solid red;
-
-	/* display: flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center; */
+	align-items: center;
+}
+
+#score,
+button {
+	width: 100%;
+	margin: 1.2rem 0;
+	padding: 2rem;
+	font-size: 1.6rem;
+}
+
+button {
+	cursor: pointer;
 }
 
 .output {
