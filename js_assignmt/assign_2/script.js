@@ -87,7 +87,7 @@ function getInput(e) {
 	} else if (inputScore >= 80) {
 		grade = "A";
 	} else if (inputScore >= 70) {
-		grade = "B";
+		grade = "B+";
 	} else if (inputScore >= 60) {
 		grade = "B";
 	} else if (inputScore >= 50) {
