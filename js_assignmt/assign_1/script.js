@@ -60,16 +60,34 @@ firstScore -= secondScore;
 console.log(firstScore); // -10
 
 // 10. *= Multiply and assign
+firstScore *= secondScore;
+// i.e firstScore = firstScore - secondScore
+
+console.log(firstScore); // -200
 
 // 11. /= Divide and assign
+firstScore /= secondScore;
+// i.e firstScore = firstScore - secondScore
+
+console.log(firstScore); // -10
 
 // 12. == Equal to
+let result;
+
+result = a == b;
+console.log(result); // false
 
 // 13. === Strictly equal (same value and type)
+result = a === b;
+console.log(result); // false
 
 // 14. != Not equal to
+result = a != b;
+console.log(result); // true
 
 // 15. !== Strictly not equal
+result = a !== b;
+console.log(result); // true
 
 // 16. > Greater than
 
