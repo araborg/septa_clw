@@ -63,12 +63,12 @@ console.log(averageScore); // 58
 let result = [];
 
 for (let i = 0; i < studentNames.length; i++) {
-	let score = studentList[i];
+	let grad = studentList[i];
 
-	result.push(score.name);
+	result.push(grade.score);
 }
 
-console.log(result); //  [ "Kola", "Uche", "Alli", "Godfrey", "Salah" ]
+console.log(result); //  [ 60, 80, 50, 30, 70]
 
 // Use an if...else to assign grades (A, B, C, D, F) based on their score.
 const score = document.querySelector("#score");
