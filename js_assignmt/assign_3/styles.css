@@ -3,3 +3,25 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.container {
+	width: 400%;
+	height: 400px;
+
+	display: flex;
+	overflow-x: none;
+}
+
+.item {
+	width: 200px;
+	height: 300px;
+
+	position: absolute;
+}
+
+.item img {
+	width: 200px;
+	height: 300px;
+
+	/* display: none; */
+}
