@@ -6,8 +6,10 @@ const inititalSlide = 0;
 const totalItems = items.length;
 // console.log(totalItems);
 
-prevBtn.addEventListener('click', handleClick.bind(this))
+prevBtn.addEventListener("click", handleClick.bind(this));
 
-function handleClick(this){
-console.log(this)
+function handleClick(e) {
+	console.log(e.target.id);
+
+	// const
 }
